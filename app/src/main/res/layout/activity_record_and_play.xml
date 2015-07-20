@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:orientation="vertical" >
+
+<TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="Record and play your phrases dawg" />
+<TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="Sampling Frequency" />
+<Spinner
+    android:id = "@+id/frequency"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"/>
+<Button
+    android:id="@+id/startrec"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="Start Recording" />
+<Button
+    android:id="@+id/stoprec"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="Stop Recording" />
+<Button
+    android:id="@+id/playback"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="Play Back" />
+
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Let's test this BS"
+    android:id="@+id/button"
+    android:layout_gravity="center_horizontal" />
+
+</LinearLayout>
